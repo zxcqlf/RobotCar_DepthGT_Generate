@@ -33,7 +33,7 @@ parser.add_argument('--laser_dir', type=str, default='~SEQ~/Front-2D lidar/2014-
 parser.add_argument('--poses_file', type=str, default='./vo.csv',help='File containing either INS or VO poses')
 parser.add_argument('--models_dir', type=str, default='camera-models/',help='Directory containing camera models')
 parser.add_argument('--extrinsics_dir', type=str,default='extrinsics/' ,help='Directory containing sensor extrinsics')
-parser.add_argument('--predicted_disp_path', type=str,default='./vo/snow/encoder.npy' , help='predicted_disparity .npy file path')
+parser.add_argument('--predicted_disp_path', type=str,default='./encoder.npy' , help='predicted_disparity .npy file path')
 parser.add_argument('--test_file_time_stamps',default='./tset_splits/test_files.txt' ,type=str,help='test_images timestamps')
 parser.add_argument('--eigen_crop',                      help='if set, crops according to Eigen NIPS14',   action='store_true')
 parser.add_argument('--garg_crop',                       help='if set, crops according to Garg  ECCV16',   action='store_true')
