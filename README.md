@@ -18,11 +18,15 @@ This test sequence "test_files" follows the paper:
   year={2020},
   organization={Springer}
 }
-@article{zhao2021unsupervised,
-  title={Unsupervised Monocular Depth Estimation in Highly Complex Environments},
+@article{zhao2022unsupervised,
+  title={Unsupervised monocular depth estimation in highly complex environments},
   author={Zhao, Chaoqiang and Tang, Yang and Sun, Qiyu},
-  journal={arXiv preprint arXiv:2107.13137},
-  year={2021}
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence},
+  volume={6},
+  number={5},
+  pages={1237--1246},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
